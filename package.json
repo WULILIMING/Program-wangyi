@@ -1,0 +1,25 @@
+{
+  "name": "program",
+  "version": "1.0.0",
+  "description": "you.163.com/index/list/show",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WULILIMING/Program-wangyi.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WULILIMING/Program-wangyi/issues"
+  },
+  "homepage": "https://github.com/WULILIMING/Program-wangyi#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0",
+    "normalize.css": "^7.0.0"
+  }
+}
