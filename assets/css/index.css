@@ -1,213 +1,4 @@
-/* 头部黑色登录部分导航条目start */
-.header{
-	width:100%;
-	height:36px;
-	background-color: #333;
-}
-.container{
-	width:1090px;
-	margin:0 auto;
-}
-.header .container .slogan{
-	font-size: 12px;
-	color:#ccc;
-	line-height: 36px;
-	margin-left: 10px;
-	text-decoration: none;
-}
-.header .container .slogan:hover{
-	color: #fff;
-}
-.header .container>i{
-	display: inline-block;
-	color: #b4a078;
-	margin-left: 20px;
-}
-.header .container .survey{
-	font-size: 12px;
-	color:#b4a078;
-	line-height: 36px;
-	margin-left: 10px;
-}
-.header .container .survey:hover{
-	color: #fff;
-}
-.header .container .navBox{
-	float: right;
-	height: 36px;
-	font-size: 12px;
-	line-height: 36px;
-}
-.header .container .navBox .loginLink{
-	margin-right: 15px;
-}
-.header .container .navBox a{
-	color:#ccc;
-	text-decoration: none;
-}
-.header .container .navBox a:hover{
-	color: #fff;
-}
-.header .container .navBox .nav-item{
-	display: inline-block;
-}
-.header .container .navBox .nav-item::before{
-	content: "|";
-	color:#ccc;
-	font-size: 12px;
-	font-weight: 100;
-	margin-left: 8px;
-	margin-right: 8px;
-}
-.header .container .navBox .service-arrow{
-	font-size: 12px;
-	color: #ccc;
-	margin-left: 7px;
-}
-.header .container .navBox .icon-weibiaoti1{
-	font-size: 12px;
-	color: #fff;
-	margin-right: 3px;
-}
-/* 头部黑色登录部分导航条目end */
 
-/*logo部分，搜索框以导航栏楼层start*/
-.nav{
-	width:100%;
-	height: 205px;
-	background-color: #fff;
-}
-.nav .container{
-	height: 205px;
-	overflow: hidden;
-}
-.nav .container .logoImg>i{
-	display: inline-block;
-	position: relative;
-	top: 50px;
-	left: 455px;
-	width: 180px;
-	height: 60px;
-	background:url("../images/logobg.png") no-repeat;
-	background-position: 0 -145px;
-}
-.nav .container .searchBox{
-	position: relative;
-    float: right;
-    margin-top: 75px;
-    margin-right: 5px;
-    box-sizing: border-box;
-    overflow: hidden;
-    /*clear: both;*/
-}
-.nav .container .searchBox .searchInput{
-	display: inline-block;
-	width:252px;
-	height: 21px;
-	color: #333;
-	font-size: 12px;
-	border:none;
-	border-bottom:1px solid #b4a078;
-	outline: none;
-	vertical-align: top;
-}
-.nav .container .searchBox>input::-webkit-input-placeholder{
-	font-size: 12px;
-	color: #999;
-	text-align: left;
-	text-indent: 10px;
-	vertical-align: bottom;
-}
-.nav .container .searchBox .searchIcon{
-	display: inline-block;
-	width: 22px;
-	height: 22px;
-	line-height: 22px;
-	text-align: center;
-	background: url("../images/logobg.png");
-	background-position: 0 -290px;
-	vertical-align: top;
-}
-.nav .container .cartBox{
-	position: relative;
-	float: right;
-	margin-top: 65px;
-	margin-right: 15px;
-	width: 34px;
-	height: 32px;
-	clear: both;
-	cursor: pointer;
-}
-.nav .container .cartBox .cartIcon{
-	position: absolute;
-	left:0;
-	bottom: 0;
-	display: inline-block;
-	width: 22px;
-	height: 22px;
-	line-height: 22px;
-	text-align: center;
-	background: url("../images/logobg.png");
-	background-position: 0 -115px;
-}
-.nav .container .cartBox .cartNum{
-	position: absolute;
-	right:-2px;
-	top: -2px;
-	display: inline-block;
-	width: 22px;
-	height: 22px;
-	font-size: 12px;
-	color:#fff;
-	text-align: center;
-	line-height: 22px;
-	background: url("../images/logobg.png");
-	background-position: 0 -50px;
-}
-.nav .container .navList{
-	position: relative;
-	margin-top: 95px;
-	list-style: none;
-}
-.nav .container .navList li{
-	float: left;
-	height: 25px;
-	line-height: 25px;
-	margin-right: 50px;
-}
-.nav .container .navList li:hover{
-	border-bottom:3px solid #b4a078;
-}
-.nav .container .navList .interset{
-	margin-right: 0;
-}
-.nav .container .navList .lineY{
-	font-size: 18px;
-	font-weight: 100;
-	color: #444;
-	margin-left: 25px;
-	margin-right: 25px;
-}
-.nav .container .navList li:last-child{
-	margin-right: 0;
-}
-.nav .container .navList li a{
-	font-size: 14px;
-	font-weight: 600;
-	color: #333;
-	text-decoration: none;
-}
-.nav .container .navList li:hover a{
-	color: #b4a078;
-}
-.nav .container .navList .showItem{
-	color: #b4a078;
-	border-bottom:3px solid #b4a078;
-}
-.nav .container .navList .showItem>a{
-	color: #b4a078;
-}
-/*logo部分，搜索框以导航栏楼层end*/
 
 /*轮播图楼层start*/
 .carousel{
@@ -1223,6 +1014,7 @@
 	position: relative;
 	width: 100%;
 	height: 100%;
+	overflow: hidden;
 }
 .family .prodItem .prodImg .imgBox>img{
 	transform: scale(1.0);
@@ -1295,3 +1087,165 @@
 	padding-bottom: 3px;
 }
 /*居家楼层end*/
+
+/*甄选家楼层start*/
+.chioce{
+	width: 100%;
+	padding: 30px 0 80px;
+}
+.chioce .prodList{
+	width: 100%;
+	overflow: hidden;
+}
+.chioce .prodList>div{
+	float: left;
+	background-color: #66ccff;
+}
+.chioce .prodList .prodLeft{
+	width: 690px;
+	height: 380px;
+	margin-right: 10px;
+}
+.chioce .prodList .prodright{
+	width: 390px;
+	height: 185px;
+}
+.chioce .prodList>div:last-child{
+	margin-top: 10px;
+}
+/*甄选家楼层end*/
+
+/*大家都在说楼层start*/
+.allsay{
+	padding: 50px 0;
+	background-color: #f0f4ea;
+}
+.allsay .container{
+	position: relative;
+}
+.allsay .listBox{
+	width: 100%;
+	overflow: hidden;
+}
+.allsay .listBox .sayList{
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	width: 9999px;
+}
+.allsay .listBox .sayList .item{
+	position: relative;
+	float: left;
+	box-sizing: border-box;
+	width: 355px;
+	height: 492px;
+	background-color: #fff;
+}
+.allsay .listBox .sayList>li{
+	margin-left: 12px;
+}
+.allsay .listBox .sayList>li:first-child{
+	margin-left: 0;
+}
+.allsay .sayList .itemImg{
+	box-sizing: border-box;
+	width: 355px;
+	height: 355px;
+	border: 1px solid #fff;
+}
+.allsay .sayList .itemImg>a{
+	width: 100%;
+	height: 100%;
+}
+.allsay .sayList .itemImg .imgBox{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.allsay .sayList .itemImg .imgBox>img{
+	transform: scale(1.0);
+	transition: transform 1s;
+}
+.allsay .sayList .item:hover .imgBox>img{
+	transform: scale(1.05);
+}
+.allsay .sayList .itemSay{
+	position: absolute;
+	bottom: 0;
+	left: 5px;
+	box-sizing: border-box;
+	width: 345px;
+	height: 185px;
+	background-color: #fff;
+}
+.allsay .sayList .itemSay .user{
+	font-size: 14px;
+	color: #999;
+	margin-left: 20px;
+}
+.allsay .sayList .itemSay .user .name{
+	margin-right: 20px;
+}
+.allsay .sayList .itemSay .title{
+	width: 100%;
+	font-size: 17px;
+	font-weight: 600;
+	color: #333;
+	padding-left: 15px;
+	overflow: hidden;
+}
+.allsay .sayList .itemSay .title .prodName{
+	display: inline-block;
+	width: 200px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	vertical-align: bottom;
+}
+.allsay .sayList .itemSay .title .price{
+	display: inline-block;
+	float: right;
+	font-size: 16px;
+	font-weight: 400;
+	color: #b4a078;
+	margin-right:40px;
+	vertical-align: bottom;
+}
+.allsay .sayList .itemSay .evalText{
+	width: 315px;
+	font-size: 14px;
+	font-weight: 400;
+	color: #444;
+	text-align: justify;
+	margin: 15px auto 0;
+}
+.allsay .container .control{
+	position: absolute;
+	top: 50%;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	font-size: 18px;
+	margin-top: -25px;
+	background-color: #b4a078;
+	border-radius: 50%;
+	opacity: 0.6;
+}
+.allsay .container .control a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	color: #fff;
+	text-decoration: none;
+}
+.allsay .container .control:hover{
+	opacity: 1;
+}
+.allsay .container .leftBtn{
+	left: -55px;
+}
+.allsay .container .rightBtn{
+	right: -55px;
+}
+/*大家都在说楼层end*/
