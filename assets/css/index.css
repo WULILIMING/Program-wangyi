@@ -75,6 +75,7 @@
 	margin:0;
 	text-align: center;
 	overflow: hidden;
+	cursor: pointer;
 }
 .carousel .carousel-index li{
 	position: relative;
@@ -99,6 +100,9 @@
 	border:0;
 	outline: 0;
 	background:#bfbbba;
+}
+.carousel .carousel-index li>button:hover{
+	cursor: pointer;
 }
 .carousel .carousel-index li.indexActive{
 	position: relative;

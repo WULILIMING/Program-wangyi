@@ -1,0 +1,331 @@
+/*当前页导航start*/
+.content{
+	width: 100%;
+	background-color: #f5f5f5;
+	padding-bottom: 80px;
+}
+.content .navBox{
+	margin-top: 20px;
+}
+.content .navBox>a{
+	font-size:14px;
+	color: #333;
+	text-decoration: none;
+}
+.content .navBox>a:hover{
+	text-decoration: underline;
+}
+.content .navBox>span{
+	color: #999;
+}
+.content .navBox>p{
+	display: inline-block;
+	font-size: 14px;
+	color: #999;
+}
+/*当前页导航end*/
+/*轮播图区域start*/
+.carousel{
+	position: relative;
+	width: 100%;
+	
+}
+.carousel .carousel-image{
+	position: relative;
+	margin: 0;
+	padding: 0;
+	font-size: 0;
+}
+.carousel .carousel-image>li{
+	display: none;
+}
+.carousel .carousel-image>li.active{
+	display: block;
+}
+.carousel .btn{
+	display: none;
+	position: absolute;
+	top: 50%;
+	width: 40px;
+	height: 60px;
+	margin-top: -30px;
+	text-align: center;
+	line-height: 60px;
+	background-color: #000;
+	opacity: 0.8;
+	border-radius: 3px;
+}
+.carousel .btn>a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	font-size: 20px;
+	color: #fff;
+	text-decoration: none;
+}
+.carousel .btn:hover{
+	background-color: #b4a078;
+}
+.carousel .carousel-left{
+	left: 10px;
+}
+.carousel .carousel-right{
+	right: 10px;
+}
+.carousel:hover .btn{
+	display: block;
+}
+.carousel .carousel-index{
+	position: absolute;
+	bottom: 0;
+	margin:0;
+	padding: 0;
+	width: 100%;
+	text-align: center;
+	overflow: hidden;
+	cursor: pointer;
+}
+.carousel .carousel-index li{
+	position: relative;
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin: 0 8px 10px;
+    padding: 0;
+    background-color: #ccc;
+	border-radius: 50%;
+    cursor: pointer;
+}
+.carousel .carousel-index li>button{
+	display: block;
+	width: 12px;
+	height: 12px;
+	font-size: 0;
+	line-height: 0;
+	color: transparent;
+	border-radius: 50px;
+	border:0;
+	outline: 0;
+	background:#bfbbba;
+}
+.carousel .carousel-index li>button:hover{
+	cursor: pointer;
+}
+.carousel .carousel-index li.indexActive{
+	position: relative;
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin: 0 8px 10px;
+    padding: 0;
+    background-color: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.carousel .carousel-index li.indexActive>button{
+	display: block;
+	width: 12px;
+	height: 12px;
+	font-size: 0;
+	line-height: 0;
+	padding: 0;
+	color: transparent;
+	border-radius: 50px;
+	border:2px solid #b4a078;
+	outline: 0;
+	background:transparent;
+}
+/*轮播图区域end*/
+/*分类展示区域start*/
+.showBox{
+	margin-top: 30px;
+	background-color: #fff;
+	border-radius:5px;
+}
+.showBox .chioceBox{
+	width: 1010px;
+	margin: 0 auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.showBox .chioceBox>span{
+	display: inline-block;
+	width: 60px;
+	font-size: 14px;
+	color: #999;
+}
+.showBox .chioceBox>a{
+	font-size: 14px;
+	color: #333;
+	margin: 0 10px;
+	text-decoration: none;
+}
+.showBox .chioceBox>a:hover{
+	color: #b4a078;
+}
+.showBox .chioceBox>a:first-of-type{
+	color: #b4a078;
+}
+.showBox .classify,.area{
+	border-bottom: 1px dashed #ddd;
+}
+.showBox .sort{
+	border-bottom: 1px solid #ddd;
+}
+/*分类展示区域end*/
+
+/*商品列表区域start*/
+.prod{
+	padding-top: 30px;
+	padding-bottom: 50px;
+	width: 100%;
+	background-color: #fff;
+}
+.prod .inarea{
+	width: 1010px;
+	margin: 0 auto;
+}
+.prod .inarea .title{
+	width: 100%;
+	text-align: center;
+}
+.prod .inarea .title>img{
+	display: inline-block;
+	vertical-align: middle;
+}
+.prod .inarea .title>h3{
+	display: inline-block;
+	font-size: 24px;
+	margin-left: 15px;
+	vertical-align: middle;
+}
+.prod .inarea .text{
+	width: 100%;
+	font-size: 14px;
+	color: #999;
+	text-align: center;
+	margin-bottom: 40px;
+}
+.prod .inarea .prodList{
+	width: 100%;
+	overflow: hidden;
+}
+.prod .inarea .prodList>ul{
+	margin: 0;
+	padding: 0;
+}
+.prod .inarea .prodList>ul li{
+	float: left;
+	width: 245px;
+	margin-right: 10px;
+	margin-top: 25px;
+}
+.prod .inarea .prodList>ul li:nth-of-type(4){
+	margin-right: 0;
+}
+.prod .inarea .prodList>ul li:nth-of-type(8){
+	margin-right: 0;
+}
+.prod .inarea .prodList>ul li:nth-of-type(12){
+	margin-right: 0;
+}
+.prod .inarea .prodList>ul li:nth-of-type(16){
+	margin-right: 0;
+}
+.prod .inarea .prodList>ul li:nth-of-type(20){
+	margin-right: 0;
+}
+.prod .inarea .prodList .prodImg{
+	width: 245px;
+	height: 245px;
+	background-color: #f4f4f4;
+}
+.prod .inarea .prodList .prodImg>a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.prod .inarea .prodList .prodImg .imgBox{
+	position: relative;
+	overflow: hidden;
+}
+.prod .prodList .prodImg .imgBox>img{
+	transform: scale(1.0);
+	transition: transform 1s;
+}
+.prod .inarea .prodList>ul li:hover .imgBox>img{
+	transform: scale(1.05);
+}
+.prod .inarea .prodList .prodImg .imgBox>span{
+	position: absolute;
+	top: 10px;
+	left: 15px;
+	box-sizing: border-box;
+	display: inline-block;
+	width: 53px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	font-size: 12px;
+	color: #b3a07d;
+	border:1px solid #b3a07d;
+	background-color: #f4f0ea;
+	border-radius: 5px;
+}
+.prod .prodList .prodInfo .activeIcon{
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+}
+.prod .prodList .prodInfo .activeIcon>span{
+	height: 20px;
+	font-size: 14px;
+	color: #fff;
+	line-height: 20px;
+	text-align: center;
+	margin-left: 5px;
+	padding: 0 5px;
+	background-color: #e36844;
+}
+.prod .prodList .prodInfo .activeIcon>span:first-child{
+	margin-left: 0;
+}
+.prod .prodList .prodInfo .prodname{
+	font-size: 14px;
+	margin:0;
+	padding: 0;
+	text-align: center;
+}
+.prod .prodList .prodInfo .prodname>a{
+	color: #333;
+	text-decoration: none;
+}
+.prod .prodList .prodInfo .prodname>a:hover{
+	color: #b4a078;
+}
+.prod .prodList .prodInfo .price{
+	width: 100%;
+	font-size: 12px;
+	color: #d4282d;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	margin-top: 8px;
+}
+.prod .prodList .prodInfo .line{
+	width: 60%;
+	height: 1px;
+	margin: 10px auto;
+	background-color: #ddd;
+}
+.prod .prodList .prodInfo .text{
+	width: 90%;
+	font-size: 13px;
+	color: #999;
+	margin: 20px auto 5px;
+	text-align: center;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+/*商品列表区域end*/
