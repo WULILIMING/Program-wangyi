@@ -283,6 +283,8 @@
 	overflow: hidden;
 }
 .newprod .container .prodList>ul{
+	position: relative;
+	width: 9999px;
 	padding: 0;
 	margin: 0;
 }
@@ -1132,6 +1134,7 @@
 	overflow: hidden;
 }
 .allsay .listBox .sayList{
+	position: relative;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;

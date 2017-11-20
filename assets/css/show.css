@@ -89,6 +89,9 @@
 .choice .imgBox .imgList ul li:hover{
 	border:2px solid #b4a078;
 }
+.choice .imgBox .imgList ul li.checked{
+	border:2px solid #b4a078;
+}
 .choice .imgBox .prodInfo{
 	float: right;
 	width: 500px;
